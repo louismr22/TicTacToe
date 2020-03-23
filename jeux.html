@@ -1,0 +1,22 @@
+<div class="jeux">
+    <router-link to="/jeux"></router-link>
+        <table>
+            <tr>
+                <td @click="click('A')">{{ A }}</td>
+                <td @click="click('B')">{{ B }}</td>
+                <td @click="click('C')">{{ C }}</td>
+            </tr>
+            <tr>
+                <td @click="click('D')">{{ D }}</td>
+                <td @click="click('E')">{{ E }}</td>
+                <td @click="click('F')">{{ F }}</td>
+            </tr>
+            <tr>
+                <td @click="click('G')">{{ G }}</td>
+                <td @click="click('H')">{{ H }}</td>
+                <td @click="click('I')">{{ I }}</td>
+            </tr>
+        </table>
+    <p>C'est au tour de:  {{ tourActuel }}</p>
+    <p>Tour numéro:  {{ tourJouer }}</p>
+</div>

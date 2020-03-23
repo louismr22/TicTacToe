@@ -1,0 +1,74 @@
+body {
+    background-image: url("../image/tictactoe.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#app {
+    color: white;
+    font-size: 36px;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 15%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+}
+
+table, td {
+    margin-left: 15px;
+    border: solid 2px white;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transition: all 1s;
+}
+
+td:hover {
+    border: solid 2px red;
+    background-color: red;
+    opacity: 0.3;
+}
+
+p {
+    text-align: center;
+}
+
+.jeux {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accueil {
+    margin-top: 100px;
+}
+
+.victoire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 2s;
+}
+ .fade-enter, .fade-leave-to {
+    opacity: 1;
+}
